@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Tài Khoản">
+            <menu>
+                <item
+                    android:id="@+id/logintaikhoan"
+                    android:icon="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                    android:title="Đăng Nhập Và Đăng Kí" />
+            </menu>
+        </item>
+
+        <item android:title="Khách sạn">
+           <menu>
+                <item
+                    android:id="@+id/khachsan1"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Trang Chủ" />
+               <item
+                   android:id="@+id/khachsan2"
+                   android:icon="@drawable/ic_menu_gallery"
+                   android:title="Theo Dõi Đặt Phòng" />
+                <item
+                    android:id="@+id/khachsan3"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Khách Sạn Yêu Thích" />
+           </menu>
+        </item>
+    </group>
+
+    <item android:title="Về tôi">
+        <menu>
+            <item
+                android:id="@+id/gioithieu1"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Giới Thiệu" />
+            <item
+                android:id="@+id/gioithieu2"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Liên Hệ" />
+            <item
+                android:id="@+id/gioithieu3"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Đánh Giá" />
+        </menu>
+    </item>
+
+</menu>

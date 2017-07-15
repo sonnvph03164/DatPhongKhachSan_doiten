@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/colorxam">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="60dp"
+        android:background="#94d6d6">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Đặt phòng với hơn 5000 khách sạn" />
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingTop="25dp"
+            android:queryHint="tìm kiếm điểm đến, khách sạn" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="334dp"
+        android:layout_height="164dp"
+        android:layout_marginLeft="16dp"
+        android:background="#94d6d6">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            android:text="Ngày nhận phòng" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="70dp"
+            android:text="Ngày trả phòng" />
+
+        <Button
+            android:id="@+id/timkiem"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="#e46a18"
+            android:text="Tìm Kiếm" />
+
+        <Button
+            android:id="@+id/ngayden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="27dp"
+            android:text="ngày 10 tháng 7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <Button
+            android:id="@+id/ngayve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="20dp"
+            android:text="ngày 11 tháng 7" />
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
